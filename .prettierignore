@@ -1,0 +1,12 @@
+# Ignore artifacts:
+**/build
+**/coverage
+**/.next
+**/out
+**/.github
+**/CHANGELOG.md
+**/node_modules
+**/vendor
+**/.mjs
+**/dist
+**/types
