@@ -1,4 +1,4 @@
-type TitleBoxV2 = {
+type TitleBox = {
   /**
    * 타이틀 박스 텍스트
    */
@@ -31,7 +31,7 @@ export const TitleBox = ({
  subText = "",
  icon,
  fitStyle = false,
-}: TitleBoxV2) => {
+}: TitleBox) => {
   return (
     <div className={`h-[50px] items-center ${bgColor} ${textColor}`}>
       <div className={`text-[19px] font-bold ${fitStyle ? "" : "mx-4"}`}>{text}</div>
