@@ -12,7 +12,9 @@ const Navbar = () => {
         <Link href={ROUTE.MAIN}>
           <HomeIcon className="h-6 w-6" />
         </Link>
-        <div className="ml-1 sm:ml-6">기술 스택</div>
+        <Link href={ROUTE.SKILL}>
+          <div className="ml-1 sm:ml-6">기술 스택</div>
+        </Link>
         <Link href={ROUTE.CAREER}>
           <div className="ml-1 sm:ml-6">경력 사항</div>
         </Link>

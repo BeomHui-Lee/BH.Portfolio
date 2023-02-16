@@ -3,6 +3,8 @@
 import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import { map, pipe, toArray } from "@fxts/core";
+import { useAtom } from "jotai";
+import { deviceAtom } from "@/constants/common";
 
 const iconSrcArr: iconSrcArr[] = [
   { src: "/icons/Bootstrap.svg", className: "ml-[5%] mt-[25px] sm:mt-[50px] ", fadeOption: 1 },
@@ -34,7 +36,7 @@ const IconSection = () => {
   const [delay1s, setDelay1s] = useState<boolean>(false);
   const [delay2s, setDelay2s] = useState<boolean>(false);
   const [delay3s, setDelay3s] = useState<boolean>(false);
-  const [mobile, setMobile] = useState<boolean>(false);
+  const [mobile, setMobile] = useAtom(deviceAtom);
 
   useEffect(() => {
     const filter = "win16|win32|win64|mac";
