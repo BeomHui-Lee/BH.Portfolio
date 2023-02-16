@@ -33,7 +33,7 @@ const Career = () => {
   };
 
   return (
-    <div className="max-w-3xl w-full m-auto flex flex-col">
+    <div className="max-w-3xl w-full m-auto flex flex-col px-2">
       <div className="font-bold text-[40px] mt-20">경력</div>
       <div className="font-bold text-[30px] mt-10">그린랩스 (2021.10 ~ 재직중)</div>
       <div className="text-[15px]">자재플랫폼 개발실 / 팀원</div>

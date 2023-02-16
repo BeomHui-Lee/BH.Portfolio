@@ -18,7 +18,9 @@ const Navbar = () => {
         <Link href={ROUTE.CAREER}>
           <div className="ml-1 sm:ml-6">경력 사항</div>
         </Link>
-        <div className="ml-1 sm:ml-6">기타 사항</div>
+        <Link href={ROUTE.ETC}>
+          <div className="ml-1 sm:ml-6">기타 사항</div>
+        </Link>
       </div>
       <div className="col-span-0 sm:col-span-3"></div>
     </div>
