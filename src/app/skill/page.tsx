@@ -14,9 +14,9 @@ const iconSrcArr1: iconSrcArr[] = [
 ];
 
 const iconSrcArr2: iconSrcArr[] = [
-  { src: "/icons/React-Light.svg", className: "", x: "1", top: "300px", text: "React" },
-  { src: "/icons/VueJS-Light.svg", className: "", x: "1", top: "500px", text: "VueJS" },
-  { src: "/icons/NextJS-Light.svg", className: "", x: "1", top: "600px", text: "NextJS" },
+  { src: "/icons/NextJS-Light.svg", className: "", x: "1", top: "300px", text: "NextJS" },
+  { src: "/icons/React-Light.svg", className: "", x: "1", top: "500px", text: "React" },
+  { src: "/icons/VueJS-Light.svg", className: "", x: "1", top: "600px", text: "VueJS" },
 ];
 
 const iconSrcArr3: iconSrcArr[] = [
